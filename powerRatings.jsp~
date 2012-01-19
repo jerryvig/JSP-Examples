@@ -1,0 +1,10 @@
+<%@ page import="com.mktneutral.GovAuctions" %>
+<html><body><div align="center" style="font-family:verdana;font-weight:bold;font-size:large;"><h1>Get PowerRatings List</h1>
+<%
+
+    GovAuctions myGovAuctions = new GovAuctions();
+
+    GovAuctions.main( "my args" );  
+
+
+%></body></html>

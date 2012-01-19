@@ -1,0 +1,30 @@
+<html><head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="http://jqueryui.com/themes/base/jquery.ui.all.css">
+<script type="text/javascript">
+$(window).load(function(){
+   var tags = [ "http://univision.com/portal.jhtml", "http://www.terra.com/portada/", "http://autos.univision.com/" ];
+   $("#textInput").autocomplete({ source:tags });
+   $("#submitButton").button();
+   $("#submitButton").click( function() {
+     $("#resultsTable").empty();
+     var getString = "./admonitor.jsp?url=" + $("#textInput").val();
+     $.get( getString, function(data) {  
+       $("#resultsTable").append( "<tr style='background-color:#E0E0E0;'><th>URL</th><th>File Type</th></tr>" );
+       $("#resultsTable").append( data );
+     });
+   });
+});
+</script>
+</head>
+<body>
+
+<div align="center" class="ui-widget">
+<h2>AdMonitor URL Entry</h2><br>
+Enter a page URL: <input id="textInput">
+<input id="submitButton" type="submit" value="Get Ads"/>
+<table id="resultsTable" border="0" cellspacing="1" rules="none"></table>
+</div>
+
+</body></html>

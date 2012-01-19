@@ -1,0 +1,45 @@
+<html>
+<head>
+<script src="http://yui.yahooapis.com/3.4.1/build/yui/yui-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/combo?3.4.1/build/datatype-number-format/datatype-number-format-min.js"></script>
+<script type="text/javascript">
+window.onload = function () {
+YUI().use("datatype-number", function(Y) {
+ var referencePoint = new Date( 2011, 9, 21 );
+ var today=new Date();
+ var debtIncrement = (today.getTime()-referencePoint.getTime())*34.28761; 
+ var nationalDebt = 14940365910718.16 + debtIncrement;
+ document.getElementById('txt').innerHTML= Y.DataType.Number.format( nationalDebt, {
+       prefix: "$",
+       thousandsSeparator: ",",
+       decimalSeparator: ".",
+       decimalPlaces: 2,
+       suffix: ""
+ });
+ t=setTimeout('startTime()',250);
+}); 
+}
+
+function startTime() {
+ YUI().use("datatype-number", function(Y) {
+  var referencePoint = new Date( 2011, 9, 21 );
+  var today=new Date();
+  var debtIncrement = (today.getTime()-referencePoint.getTime())*34.28761; 
+  var nationalDebt = 14940365910718.16 + debtIncrement;
+  document.getElementById('txt').innerHTML= Y.DataType.Number.format( nationalDebt, {
+       prefix: "$",
+       thousandsSeparator: ",",
+       decimalSeparator: ".",
+       decimalPlaces: 2,
+       suffix: ""
+  });
+  t=setTimeout('startTime()',250);
+ }); 
+}
+</script>
+</head>
+
+<body>
+<div id="txt" align="center" style="background-color:#008000;color:#FFFFFF;font-size:24px;font-weight:bold;width:300px"></div>
+</body>
+</html>

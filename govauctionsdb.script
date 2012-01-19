@@ -1,0 +1,65 @@
+SET DATABASE UNIQUE NAME HSQLDB32618308E0
+SET DATABASE GC 0
+SET DATABASE DEFAULT RESULT MEMORY ROWS 0
+SET DATABASE EVENT LOG LEVEL 0
+SET DATABASE SQL NAMES FALSE
+SET DATABASE SQL REFERENCES FALSE
+SET DATABASE SQL SIZE TRUE
+SET DATABASE SQL TYPES FALSE
+SET DATABASE SQL TDC DELETE TRUE
+SET DATABASE SQL TDC UPDATE TRUE
+SET DATABASE SQL TRANSLATE TTI TYPES TRUE
+SET DATABASE SQL CONCAT NULLS TRUE
+SET DATABASE SQL UNIQUE NULLS TRUE
+SET DATABASE SQL CONVERT TRUNCATE TRUE
+SET DATABASE SQL DOUBLE NAN TRUE
+SET DATABASE SQL LONGVAR IS LOB FALSE
+SET DATABASE TRANSACTION CONTROL LOCKS
+SET DATABASE DEFAULT ISOLATION LEVEL READ COMMITTED
+SET DATABASE TRANSACTION ROLLBACK ON DEADLOCK TRUE
+SET DATABASE TEXT TABLE DEFAULTS ''
+SET FILES WRITE DELAY 500 MILLIS
+SET FILES BACKUP INCREMENT TRUE
+SET FILES CACHE SIZE 10000
+SET FILES CACHE ROWS 50000
+SET FILES SCALE 8
+SET FILES LOB SCALE 32
+SET FILES DEFRAG 0
+SET FILES NIO TRUE
+SET FILES NIO SIZE 256
+SET FILES LOG TRUE
+SET FILES LOG SIZE 50
+CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
+ALTER USER SA SET LOCAL TRUE
+CREATE SCHEMA PUBLIC AUTHORIZATION DBA
+SET SCHEMA PUBLIC
+CREATE MEMORY TABLE PUBLIC.AUCTION_RECORDS(WEBSITE VARCHAR(64),URL VARCHAR(256),RESULTS_CONTENT VARCHAR(512))
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 1
+SET DATABASE DEFAULT INITIAL SCHEMA PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.YES_OR_NO TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.TIME_STAMP TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.CARDINAL_NUMBER TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.CHARACTER_DATA TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.SQL_IDENTIFIER TO PUBLIC
+GRANT DBA TO SA
+SET SCHEMA SYSTEM_LOBS
+INSERT INTO BLOCKS VALUES(0,2147483647,0)
+SET SCHEMA PUBLIC
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=521265&STI=1','RARE KEYDATE 1891-O Silver Morgan $ w\ Error, Possible Value $220,000 $0.0009/13/20119:45 PM EST')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=521355&STI=1','RARE KEYDATE 1902-O Silver Morgan $ w\ Error, Possible Value $130,000 $0.0009/13/201110:00 PM EST')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=521309&STI=1','RARE KEYDATE 1928-S SILVER Peace $ w\ Error, Possible Value $600,000 $0.0009/13/201110:30 PM EST')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520782&STI=1','Unique Blue Sapphire Earrings .98 Carat & Diamond .25 Carat 14K Two $0.0009/13/201110:37 PM EST')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520784&STI=1','3 Drop Circle Diamond Pendant .18 Carat &14K White Gold $0.0009/13/201110:43 PM EST')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=521118&STI=1','5 Acre Ranch in Ward County, Texas. $1 No Reserve. $101.0009/13/201110:44 PM EST')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=521311&STI=1','RARE KEYDATE 1879-O Silver Morgan $ w\ Error, Possible Value $190,000 $0.0009/13/201110:45 PM EST')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520787&STI=1','4.36 Ct AA Tanzanite & Diamond Ring 18K with White Gold $0.0009/13/201110:53 PM EST')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520449&STI=1','$29,205 GLA Cert 2.55ct Genuine DIAMOND Solitaire 18K Ring $1 NR $4,500.0009/13/201111:00 PM EST')
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')

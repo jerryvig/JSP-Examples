@@ -1,0 +1,191 @@
+<html><head>
+<script src="http://yui.yahooapis.com/3.4.0/build/yui/yui-min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?2.9.0/build/progressbar/assets/skins/sam/progressbar.css"><script type="text/javascript" src="http://yui.yahooapis.com/combo?2.9.0/build/yahoo-dom-event/yahoo-dom-event.js&2.9.0/build/element/element-min.js&2.9.0/build/progressbar/progressbar-min.js"></script>
+<script type="text/javascript">
+ var progressBar = null;
+ window.onload = function() {
+   progressBar = new YAHOO.widget.ProgressBar();
+   progressBar.set("height","30px");
+   progressBar.set("width","200px");
+   progressBar.render("pbContainer");
+   progressBar.set('value',0);
+ }
+
+ function doSearch() {
+  YUI().use('json-parse', function (Y) {  
+    var rowNumber = 0;  
+    var number = 0;
+    var searchQuery = document.getElementById("search_query").value;
+    var ajax = new XMLHttpRequest();
+    ajax.onreadystatechange = function() {
+      if ( ajax.readyState == 4 && ajax.status==200 ) {
+        if ( number == 0 ) {
+          var searchHead = document.createElement("th");
+          searchHead.setAttribute("style","background-color:#E0E0E0;");
+          searchHead.appendChild( document.createTextNode("Search Results") );
+          document.getElementById("firstRow").appendChild( searchHead );
+        }
+
+        var jsonData = Y.JSON.parse( ajax.responseText );
+        for ( var i=0; i<jsonData.table.length; i++ ) {
+          var urlCell = document.createElement("a");
+          urlCell.href = jsonData.table[i].url;
+          urlCell.target = "_blank";
+          urlCell.appendChild( document.createTextNode( jsonData.table[i].data ) );
+          var dataCell = document.createElement("td");
+          dataCell.appendChild( urlCell );
+          if ( rowNumber % 2 == 1 ) {
+            dataCell.setAttribute("style", "font-weight:bold;background-color:#E0E0E0;" );
+          } else {
+            dataCell.setAttribute("style", "font-weight:bold;" );
+          }
+          var newRow = document.createElement("tr");
+          newRow.appendChild( dataCell );
+          document.getElementById("resultsTable").appendChild( newRow );
+          rowNumber++;
+        }
+        number++;
+        var pBarValue = progressBar.get('value') + 12.0;
+        progressBar.set('value',pBarValue);
+        var req = "ajaxTut.jsp?searchString=" + searchQuery + "&number=" + number + "&state=" + stateValue.value;   
+
+        switch(number) {
+          case 1: 
+            var currentEngineDiv = document.getElementById("currentEngineDiv");
+            currentEngineDiv.replaceChild( document.createTextNode("Searching GSA Auctions..."), currentEngineDiv.firstChild );
+            break;
+          case 2:
+            var currentEngineDiv = document.getElementById("currentEngineDiv");
+            currentEngineDiv.replaceChild( document.createTextNode("Searching IRS Auctions..."), currentEngineDiv.firstChild );
+            break;
+          case 3:
+            var currentEngineDiv = document.getElementById("currentEngineDiv");
+            currentEngineDiv.replaceChild( document.createTextNode("Searching BidCorp..."), currentEngineDiv.firstChild );
+            break;
+           case 4:
+            var currentEngineDiv = document.getElementById("currentEngineDiv");
+            currentEngineDiv.replaceChild( document.createTextNode("Searching bid4Assets..."), currentEngineDiv.firstChild );
+            break;
+           case 5:
+            var currentEngineDiv = document.getElementById("currentEngineDiv");
+            currentEngineDiv.replaceChild( document.createTextNode("Searching bankruptcysales..."), currentEngineDiv.firstChild );         
+            break;
+           case 6:
+            var currentEngineDiv = document.getElementById("currentEngineDiv");
+            currentEngineDiv.replaceChild( document.createTextNode("Searching Public Surplus..."), currentEngineDiv.firstChild );         
+            break;
+           case 7:
+            var currentEngineDiv = document.getElementById("currentEngineDiv");
+            currentEngineDiv.replaceChild( document.createTextNode("Searching Government Auction.com..."), currentEngineDiv.firstChild );
+            break;
+           case 8:
+            var currentEngineDiv = document.getElementById("currentEngineDiv");
+            currentEngineDiv.replaceChild( document.createTextNode("Searching Homesteps.com..."), currentEngineDiv.firstChild );
+            break;
+           case 9:
+            var currentEngineDiv = document.getElementById("currentEngineDiv");
+            currentEngineDiv.replaceChild( document.createTextNode("Searching Homepath.com..."), currentEngineDiv.firstChild );
+            break;
+           case 10:
+            var currentEngineDiv = document.getElementById("currentEngineDiv");
+            currentEngineDiv.replaceChild( document.createTextNode("Searching HomeSales.gov..."), currentEngineDiv.firstChild );
+           case 11:
+            var currentEngineDiv = document.getElementById("currentEngineDiv");
+            currentEngineDiv.replaceChild( document.createTextNode("Searching HUDHomeStore..."), currentEngineDiv.firstChild );
+            break;
+           case 12:
+            var currentEngineDiv = document.getElementById("currentEngineDiv");
+            currentEngineDiv.replaceChild( document.createTextNode("Searching GSA.gov..."), currentEngineDiv.firstChild );
+            break;
+           case 13:
+            var currentEngineDiv = document.getElementById("currentEngineDiv");
+            currentEngineDiv.replaceChild( document.createTextNode("Searching GovSales.gov...."), currentEngineDiv.firstChild );
+            break;
+                 
+        }
+
+        if ( number < 14.0 ) {
+          ajax.open( "GET", req, true );
+          ajax.send( null );
+        }
+        else {
+           document.getElementById("spinnerImg").setAttribute("src","http://curezone.com/upload/Members/new03/tn-white.jpg");
+        }
+      }  
+    }
+
+    var stateValue = document.getElementById("state").options.item( document.getElementById("state").selectedIndex );
+    var req = "ajaxTut.jsp?number=0&searchString=" + searchQuery + "&state=" + stateValue.value;
+    document.getElementById("currentEngineDiv").appendChild( document.createTextNode("Searching Gov Liquidation") );
+    document.getElementById("spinnerImg").setAttribute("src", "http://www.andrewdavidson.com/articles/spinning-wait-icons/wait30.gif");
+
+    ajax.open( "GET", req, true );
+    ajax.send( null );
+   });
+  }
+</script>
+</head><body><div align="center" style="font-family:verdana;font-weight:bold;font-size:large;"><h1>Government Auction Websites SearchEngine</h1><br>
+<input id="search_query" name="search_query" type="text" size="32"><br>
+State:<select id="state" name="state">
+ <option value='ALL' selected='selected'>ALL</option>
+ <option value='AL'>Alabama</option>
+ <option value='AK'>Alaska</option>
+ <option value='AZ'>Arizona</option>
+ <option value='AR'>Arkansas</option>
+ <option value='CA'>California</option>
+ <option value='CO'>Colorado</option>
+ <option value='CT'>Connecticut</option>
+ <option value='DE'>Delaware</option>
+ <option value='DC'>District of Columbia</option>
+ <option value='FL'>Florida</option>
+ <option value='GA'>Georgia</option>
+ <option value='HI'>Hawaii</option>
+ <option value='ID'>Idaho</option> 
+ <option value='IL'>Illinois</option>
+ <option value='IN'>Indiana</option>
+ <option value='IA'>Iowan</option>
+ <option value='KS'>Kansas</option>
+ <option value='KY'>Kentucky</option>
+ <option value='LA'>Lousiana</option>
+ <option value='ME'>Maine</option>
+ <option value='MD'>Maryland</option>
+ <option value='MA'>Massachusetts</option>
+ <option value='MI'>Michigan</option>
+ <option value='MN'>Minnesota</option>
+ <option value='MS'>Mississippi</option>
+ <option value='MO'>Missouri</option>
+ <option value='MT'>Montana</option>
+ <option value='NE'>Nebraska</option>
+ <option value='NV'>Nevada</option>
+ <option value='NH'>New Hampshire</option>
+ <option value='NJ'>New Jersey</option>
+ <option value='NM'>New Mexico</option>
+ <option value='NY'>New York</option>
+ <option value='NC'>North Carolina</option>
+ <option value='ND'>North Dakota</option>
+ <option value='OH'>Ohio</option>
+ <option value='OK'>Oklahoma</option>
+ <option value='OR'>Oregon</option>
+ <option value='PA'>Pennsylvania</option>
+ <option value='PR'>Puerto Rico</option>
+ <option value='RI'>Rhode Island</option>
+ <option value='SC'>South Carolina</option>
+ <option value='SD'>South Dakota</option>
+ <option value='TN'>Tennessee</option>
+ <option value='TX'>Texas</option>
+ <option value='UT'>Utah</option>
+ <option value='VT'>Vermont</option>
+ <option value='VA'>Virginia</option>
+ <option value='WA'>Washington</option>
+ <option value='WV'>West Virginia</option>
+ <option value='WI'>Wisconsin</option>
+ <option value='WY'>Wyoming</option>
+</select>
+<input name="submit" type="submit" value="Search" style="font-weight:bold;" onclick="doSearch();">
+<div align="center">
+<div id="currentEngineDiv"></div>
+<img id="spinnerImg" src="http://curezone.com/upload/Members/new03/tn-white.jpg"></img>
+<div id="pbContainer" class="yui-skin-sam"></div><br>
+<table id="resultsTable" align="center" border="1" cellspacing="1" rules="all"><tr id="firstRow"></tr></table>
+<br><br>
+</div></body></html>

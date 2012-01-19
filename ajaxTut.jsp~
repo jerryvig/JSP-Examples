@@ -1,0 +1,13 @@
+<?php
+  
+  if ( $_GET['number'] == "1" ) {
+    echo "1";
+  }
+  if ( $_GET['number'] == "2" ) {
+    echo "2";
+  }
+  if ( $_GET['number'] == "3" ) {
+    echo "3";
+  }
+
+?>

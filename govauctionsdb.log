@@ -1,0 +1,1326 @@
+/*C166*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C167*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C168*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,017);','2004 CHEVY PU CHEVY 2500HD 4X4Sale-Lot Number: 31QSCI11205017$4,9109VA09/16 06:14 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,018);','2003 CHEVY PU 2500HD 4X4Sale-Lot Number: 31QSCI11205018$3,1117VA09/16 06:15 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,019);','2003 CHEVY PU CHEVY 2500HDSale-Lot Number: 31QSCI11205019$3,2046VA09/16 06:16 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,020);','2004 CHEVY 1500Sale-Lot Number: 31QSCI11205020$3,5117VA09/16 06:17 PM CT *')
+COMMIT
+DISCONNECT
+/*C169*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C170*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2010/june9_riverside.shtml','US Treasury - Auctions - Bid Results... 38, Rolex Datejust, $14,500, James Quan. 39, Platinum Coins, $5,200, Celia Ramirez.40, Platinum Coins, $5,500, Celia Ramirez. 41, Platinum Coins, $5,200, Konrad ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2010/june9_riverside.shtml - 19k - 2010-06-09 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul19_dayton.html','US Treasury - Auctions - Bid Results... 164, Ring: Platinum, Round Brilliant Cut Center Diamond, ATW 1.08 Ct, HJ Color,Si-2 Clarity, 2 Side Diamonds, ATW 0.54 Ct, EH Color, VS-2 to SI-1 Clarity, lew ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul19_dayton.html - 30k - 2011-09-09 - Cached[ More results from www.treasury.gov/auctions/treasury/gp ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/sbca_coin_5316.htm','IRS Auction - Sales Ad for Santa Barbara, CA... Description of Property: 1 - One-ounce 2005 American Eagle Gold $50 Coin 2 -One-ounce 1997 & 2002 American Eagle Platinum $100 Coins 14 - One-ounce 2000 ...www.treasury.gov/auctions/irs/sbca_coin_5316.htm - 9k - 2011-07-08 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=platinum&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C171*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C172*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C173*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C174*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520784&STI=1','3 Drop Circle Diamond Pendant .18 Carat &14K White Gold $0.0009/13/201110:43 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520787&STI=1','4.36 Ct AA Tanzanite & Diamond Ring 18K with White Gold $0.0009/13/201110:53 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+DISCONNECT
+/*C175*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C176*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C177*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C178*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C179*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C180*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,017);','2004 CHEVY PU CHEVY 2500HD 4X4Sale-Lot Number: 31QSCI11205017$4,9109VA09/16 06:14 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,018);','2003 CHEVY PU 2500HD 4X4Sale-Lot Number: 31QSCI11205018$3,1117VA09/16 06:15 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,019);','2003 CHEVY PU CHEVY 2500HDSale-Lot Number: 31QSCI11205019$3,2046VA09/16 06:16 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,020);','2004 CHEVY 1500Sale-Lot Number: 31QSCI11205020$3,5117VA09/16 06:17 PM CT *')
+COMMIT
+DISCONNECT
+/*C181*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C182*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2010/june9_riverside.shtml','US Treasury - Auctions - Bid Results... 38, Rolex Datejust, $14,500, James Quan. 39, Platinum Coins, $5,200, Celia Ramirez.40, Platinum Coins, $5,500, Celia Ramirez. 41, Platinum Coins, $5,200, Konrad ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2010/june9_riverside.shtml - 19k - 2010-06-09 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul19_dayton.html','US Treasury - Auctions - Bid Results... 164, Ring: Platinum, Round Brilliant Cut Center Diamond, ATW 1.08 Ct, HJ Color,Si-2 Clarity, 2 Side Diamonds, ATW 0.54 Ct, EH Color, VS-2 to SI-1 Clarity, lew ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul19_dayton.html - 30k - 2011-09-09 - Cached[ More results from www.treasury.gov/auctions/treasury/gp ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/sbca_coin_5316.htm','IRS Auction - Sales Ad for Santa Barbara, CA... Description of Property: 1 - One-ounce 2005 American Eagle Gold $50 Coin 2 -One-ounce 1997 & 2002 American Eagle Platinum $100 Coins 14 - One-ounce 2000 ...www.treasury.gov/auctions/irs/sbca_coin_5316.htm - 9k - 2011-07-08 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=platinum&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C183*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C184*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C185*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C186*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520784&STI=1','3 Drop Circle Diamond Pendant .18 Carat &14K White Gold $0.0009/13/201110:43 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520787&STI=1','4.36 Ct AA Tanzanite & Diamond Ring 18K with White Gold $0.0009/13/201110:53 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+DISCONNECT
+/*C187*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C188*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C189*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C190*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C191*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C192*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,017);','2004 CHEVY PU CHEVY 2500HD 4X4Sale-Lot Number: 31QSCI11205017$4,9109VA09/16 06:14 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,018);','2003 CHEVY PU 2500HD 4X4Sale-Lot Number: 31QSCI11205018$3,1117VA09/16 06:15 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,019);','2003 CHEVY PU CHEVY 2500HDSale-Lot Number: 31QSCI11205019$3,2046VA09/16 06:16 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,020);','2004 CHEVY 1500Sale-Lot Number: 31QSCI11205020$3,5117VA09/16 06:17 PM CT *')
+COMMIT
+DISCONNECT
+/*C193*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C194*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2010/june9_riverside.shtml','US Treasury - Auctions - Bid Results... 38, Rolex Datejust, $14,500, James Quan. 39, Platinum Coins, $5,200, Celia Ramirez.40, Platinum Coins, $5,500, Celia Ramirez. 41, Platinum Coins, $5,200, Konrad ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2010/june9_riverside.shtml - 19k - 2010-06-09 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul19_dayton.html','US Treasury - Auctions - Bid Results... 164, Ring: Platinum, Round Brilliant Cut Center Diamond, ATW 1.08 Ct, HJ Color,Si-2 Clarity, 2 Side Diamonds, ATW 0.54 Ct, EH Color, VS-2 to SI-1 Clarity, lew ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul19_dayton.html - 30k - 2011-09-09 - Cached[ More results from www.treasury.gov/auctions/treasury/gp ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/sbca_coin_5316.htm','IRS Auction - Sales Ad for Santa Barbara, CA... Description of Property: 1 - One-ounce 2005 American Eagle Gold $50 Coin 2 -One-ounce 1997 & 2002 American Eagle Platinum $100 Coins 14 - One-ounce 2000 ...www.treasury.gov/auctions/irs/sbca_coin_5316.htm - 9k - 2011-07-08 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=platinum&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C195*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C196*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C197*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C198*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520784&STI=1','3 Drop Circle Diamond Pendant .18 Carat &14K White Gold $0.0009/13/201110:43 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520787&STI=1','4.36 Ct AA Tanzanite & Diamond Ring 18K with White Gold $0.0009/13/201110:53 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+DISCONNECT
+/*C199*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C200*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C201*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C202*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C203*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C204*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,017);','2004 CHEVY PU CHEVY 2500HD 4X4Sale-Lot Number: 31QSCI11205017$4,9109VA09/16 06:14 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,018);','2003 CHEVY PU 2500HD 4X4Sale-Lot Number: 31QSCI11205018$3,1117VA09/16 06:15 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,019);','2003 CHEVY PU CHEVY 2500HDSale-Lot Number: 31QSCI11205019$3,2046VA09/16 06:16 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,020);','2004 CHEVY 1500Sale-Lot Number: 31QSCI11205020$3,5117VA09/16 06:17 PM CT *')
+COMMIT
+DISCONNECT
+/*C205*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C206*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2010/june9_riverside.shtml','US Treasury - Auctions - Bid Results... 38, Rolex Datejust, $14,500, James Quan. 39, Platinum Coins, $5,200, Celia Ramirez.40, Platinum Coins, $5,500, Celia Ramirez. 41, Platinum Coins, $5,200, Konrad ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2010/june9_riverside.shtml - 19k - 2010-06-09 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul19_dayton.html','US Treasury - Auctions - Bid Results... 164, Ring: Platinum, Round Brilliant Cut Center Diamond, ATW 1.08 Ct, HJ Color,Si-2 Clarity, 2 Side Diamonds, ATW 0.54 Ct, EH Color, VS-2 to SI-1 Clarity, lew ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul19_dayton.html - 30k - 2011-09-09 - Cached[ More results from www.treasury.gov/auctions/treasury/gp ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/sbca_coin_5316.htm','IRS Auction - Sales Ad for Santa Barbara, CA... Description of Property: 1 - One-ounce 2005 American Eagle Gold $50 Coin 2 -One-ounce 1997 & 2002 American Eagle Platinum $100 Coins 14 - One-ounce 2000 ...www.treasury.gov/auctions/irs/sbca_coin_5316.htm - 9k - 2011-07-08 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=platinum&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C207*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C208*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C209*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C210*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C211*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C212*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C213*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C214*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C215*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C216*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,735);','LAWN EQUIPMENTSale-Lot Number: A1QSCI11118735$51ID09/15 07:05 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,736);','FIRE EXTINGUISHERS, ETCSale-Lot Number: A1QSCI11118736$172ID09/15 07:08 PM CT *')
+COMMIT
+DISCONNECT
+/*C217*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C218*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html','US Treasury - Auctions - Bid Results... 6, Watch: Backes & Strauss, White Gold, Oval Black Dial, White Gold Numerals andChapter Markers, Date Function, Embossed Backes & Strauss, London, Swiss Made ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html - 101k - 2011-08-02 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/inoh_anti_5107.htm','IRS Auction - Sales Ad for Independence, OHwww.treasury.gov/auctions/irs/inoh_anti_5107.htm - 22k - 2011-04-13 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/oaca_coin_5285.htm','IRS Auction - Sales Ad for Oakland, CA... Description of Property: 26 one-ounce South African Krugerrand gold coins and7 one-ounce Canadian Elizabeth II $50 gold coins. Property ...www.treasury.gov/auctions/irs/oaca_coin_5285.htm - 9k - 2011-07-06 - Cached[ More results from www.treasury.gov/auctions/irs ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=gold&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C219*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C220*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C221*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C222*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C223*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C224*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C225*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C226*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C227*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C228*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C229*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C230*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html','US Treasury - Auctions - Bid Results... 6, Watch: Backes & Strauss, White Gold, Oval Black Dial, White Gold Numerals andChapter Markers, Date Function, Embossed Backes & Strauss, London, Swiss Made ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html - 101k - 2011-08-02 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/inoh_anti_5107.htm','IRS Auction - Sales Ad for Independence, OHwww.treasury.gov/auctions/irs/inoh_anti_5107.htm - 22k - 2011-04-13 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/oaca_coin_5285.htm','IRS Auction - Sales Ad for Oakland, CA... Description of Property: 26 one-ounce South African Krugerrand gold coins and7 one-ounce Canadian Elizabeth II $50 gold coins. Property ...www.treasury.gov/auctions/irs/oaca_coin_5285.htm - 9k - 2011-07-06 - Cached[ More results from www.treasury.gov/auctions/irs ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=gold&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C231*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C232*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C233*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C234*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C235*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C236*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C237*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C238*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C239*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C240*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,735);','LAWN EQUIPMENTSale-Lot Number: A1QSCI11118735$51ID09/15 07:05 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,736);','FIRE EXTINGUISHERS, ETCSale-Lot Number: A1QSCI11118736$172ID09/15 07:08 PM CT *')
+COMMIT
+DISCONNECT
+/*C241*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C242*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html','US Treasury - Auctions - Bid Results... 6, Watch: Backes & Strauss, White Gold, Oval Black Dial, White Gold Numerals andChapter Markers, Date Function, Embossed Backes & Strauss, London, Swiss Made ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html - 101k - 2011-08-02 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/inoh_anti_5107.htm','IRS Auction - Sales Ad for Independence, OHwww.treasury.gov/auctions/irs/inoh_anti_5107.htm - 22k - 2011-04-13 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/oaca_coin_5285.htm','IRS Auction - Sales Ad for Oakland, CA... Description of Property: 26 one-ounce South African Krugerrand gold coins and7 one-ounce Canadian Elizabeth II $50 gold coins. Property ...www.treasury.gov/auctions/irs/oaca_coin_5285.htm - 9k - 2011-07-06 - Cached[ More results from www.treasury.gov/auctions/irs ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=gold&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C243*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C244*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C245*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C246*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C247*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C248*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C249*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C250*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C251*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C252*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,735);','LAWN EQUIPMENTSale-Lot Number: A1QSCI11118735$51ID09/15 07:05 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,736);','FIRE EXTINGUISHERS, ETCSale-Lot Number: A1QSCI11118736$172ID09/15 07:08 PM CT *')
+COMMIT
+DISCONNECT
+/*C253*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C254*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html','US Treasury - Auctions - Bid Results... 6, Watch: Backes & Strauss, White Gold, Oval Black Dial, White Gold Numerals andChapter Markers, Date Function, Embossed Backes & Strauss, London, Swiss Made ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html - 101k - 2011-08-02 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/inoh_anti_5107.htm','IRS Auction - Sales Ad for Independence, OHwww.treasury.gov/auctions/irs/inoh_anti_5107.htm - 22k - 2011-04-13 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/oaca_coin_5285.htm','IRS Auction - Sales Ad for Oakland, CA... Description of Property: 26 one-ounce South African Krugerrand gold coins and7 one-ounce Canadian Elizabeth II $50 gold coins. Property ...www.treasury.gov/auctions/irs/oaca_coin_5285.htm - 9k - 2011-07-06 - Cached[ More results from www.treasury.gov/auctions/irs ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=gold&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C255*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C256*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C257*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C258*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C259*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C260*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C261*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C262*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C263*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C264*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C265*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C266*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2010/june9_riverside.shtml','US Treasury - Auctions - Bid Results... 38, Rolex Datejust, $14,500, James Quan. 39, Platinum Coins, $5,200, Celia Ramirez.40, Platinum Coins, $5,500, Celia Ramirez. 41, Platinum Coins, $5,200, Konrad ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2010/june9_riverside.shtml - 19k - 2010-06-09 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul19_dayton.html','US Treasury - Auctions - Bid Results... 164, Ring: Platinum, Round Brilliant Cut Center Diamond, ATW 1.08 Ct, HJ Color,Si-2 Clarity, 2 Side Diamonds, ATW 0.54 Ct, EH Color, VS-2 to SI-1 Clarity, lew ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul19_dayton.html - 30k - 2011-09-09 - Cached[ More results from www.treasury.gov/auctions/treasury/gp ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/sbca_coin_5316.htm','IRS Auction - Sales Ad for Santa Barbara, CA... Description of Property: 1 - One-ounce 2005 American Eagle Gold $50 Coin 2 -One-ounce 1997 & 2002 American Eagle Platinum $100 Coins 14 - One-ounce 2000 ...www.treasury.gov/auctions/irs/sbca_coin_5316.htm - 9k - 2011-07-08 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=platinum&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C267*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C268*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C269*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C270*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=521250&STI=1','Loose Cabochon Star Sapphire 7.78 carat 11.6x10x62mm $110.0009/14/20112:16 AM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520736&STI=1','Gorgeous Diamond Earrings .40Carat 14k Yellow Gold $120.0009/14/201112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520745&STI=1','Ruby & Diamond Ring Ruby 2.43Ct Diamond .62Ct 14k W/G $250.0009/14/201112:58 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520901&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:03 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520902&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:13 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520756&STI=1','Rose Design Yellow Sapphire - 1.25 Ct D1.10 Carat 18k W/g $100.0009/14/20112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+DISCONNECT
+/*C271*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C272*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C273*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C274*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C275*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C276*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,735);','LAWN EQUIPMENTSale-Lot Number: A1QSCI11118735$51ID09/15 07:05 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,736);','FIRE EXTINGUISHERS, ETCSale-Lot Number: A1QSCI11118736$172ID09/15 07:08 PM CT *')
+COMMIT
+DISCONNECT
+/*C277*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C278*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html','US Treasury - Auctions - Bid Results... 6, Watch: Backes & Strauss, White Gold, Oval Black Dial, White Gold Numerals andChapter Markers, Date Function, Embossed Backes & Strauss, London, Swiss Made ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html - 101k - 2011-08-02 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/inoh_anti_5107.htm','IRS Auction - Sales Ad for Independence, OHwww.treasury.gov/auctions/irs/inoh_anti_5107.htm - 22k - 2011-04-13 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/oaca_coin_5285.htm','IRS Auction - Sales Ad for Oakland, CA... Description of Property: 26 one-ounce South African Krugerrand gold coins and7 one-ounce Canadian Elizabeth II $50 gold coins. Property ...www.treasury.gov/auctions/irs/oaca_coin_5285.htm - 9k - 2011-07-06 - Cached[ More results from www.treasury.gov/auctions/irs ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=gold&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C279*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C280*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C281*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C282*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=521076&STI=1','***$1.00 Starts It - Lot In Fairfield Bay, Arkansas - NO RESERVE*** $1.0009/14/20118:00 AM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520736&STI=1','Gorgeous Diamond Earrings .40Carat 14k Yellow Gold $120.0009/14/201112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520745&STI=1','Ruby & Diamond Ring Ruby 2.43Ct Diamond .62Ct 14k W/G $250.0009/14/201112:58 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520901&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:03 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520902&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:13 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520756&STI=1','Rose Design Yellow Sapphire - 1.25 Ct D1.10 Carat 18k W/g $100.0009/14/20112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+DISCONNECT
+/*C283*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C284*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C285*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C286*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C287*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C288*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,735);','LAWN EQUIPMENTSale-Lot Number: A1QSCI11118735$51ID09/15 07:05 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,736);','FIRE EXTINGUISHERS, ETCSale-Lot Number: A1QSCI11118736$172ID09/15 07:08 PM CT *')
+COMMIT
+DISCONNECT
+/*C289*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C290*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html','US Treasury - Auctions - Bid Results... 6, Watch: Backes & Strauss, White Gold, Oval Black Dial, White Gold Numerals andChapter Markers, Date Function, Embossed Backes & Strauss, London, Swiss Made ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html - 101k - 2011-08-02 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/inoh_anti_5107.htm','IRS Auction - Sales Ad for Independence, OHwww.treasury.gov/auctions/irs/inoh_anti_5107.htm - 22k - 2011-04-13 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/oaca_coin_5285.htm','IRS Auction - Sales Ad for Oakland, CA... Description of Property: 26 one-ounce South African Krugerrand gold coins and7 one-ounce Canadian Elizabeth II $50 gold coins. Property ...www.treasury.gov/auctions/irs/oaca_coin_5285.htm - 9k - 2011-07-06 - Cached[ More results from www.treasury.gov/auctions/irs ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=gold&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C291*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C292*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C293*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C294*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=521076&STI=1','***$1.00 Starts It - Lot In Fairfield Bay, Arkansas - NO RESERVE*** $1.0009/14/20118:00 AM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520736&STI=1','Gorgeous Diamond Earrings .40Carat 14k Yellow Gold $120.0009/14/201112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520745&STI=1','Ruby & Diamond Ring Ruby 2.43Ct Diamond .62Ct 14k W/G $250.0009/14/201112:58 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520901&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:03 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520902&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:13 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520756&STI=1','Rose Design Yellow Sapphire - 1.25 Ct D1.10 Carat 18k W/g $100.0009/14/20112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+DISCONNECT
+/*C295*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C296*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C297*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C298*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C299*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C300*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,735);','LAWN EQUIPMENTSale-Lot Number: A1QSCI11118735$51ID09/15 07:05 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,736);','FIRE EXTINGUISHERS, ETCSale-Lot Number: A1QSCI11118736$172ID09/15 07:08 PM CT *')
+COMMIT
+DISCONNECT
+/*C301*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C302*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html','US Treasury - Auctions - Bid Results... 6, Watch: Backes & Strauss, White Gold, Oval Black Dial, White Gold Numerals andChapter Markers, Date Function, Embossed Backes & Strauss, London, Swiss Made ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html - 101k - 2011-08-02 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/inoh_anti_5107.htm','IRS Auction - Sales Ad for Independence, OHwww.treasury.gov/auctions/irs/inoh_anti_5107.htm - 22k - 2011-04-13 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/oaca_coin_5285.htm','IRS Auction - Sales Ad for Oakland, CA... Description of Property: 26 one-ounce South African Krugerrand gold coins and7 one-ounce Canadian Elizabeth II $50 gold coins. Property ...www.treasury.gov/auctions/irs/oaca_coin_5285.htm - 9k - 2011-07-06 - Cached[ More results from www.treasury.gov/auctions/irs ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=gold&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C303*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C304*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C305*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C306*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=521076&STI=1','***$1.00 Starts It - Lot In Fairfield Bay, Arkansas - NO RESERVE*** $1.0009/14/20118:00 AM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520736&STI=1','Gorgeous Diamond Earrings .40Carat 14k Yellow Gold $120.0009/14/201112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520745&STI=1','Ruby & Diamond Ring Ruby 2.43Ct Diamond .62Ct 14k W/G $250.0009/14/201112:58 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520901&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:03 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520902&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:13 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520756&STI=1','Rose Design Yellow Sapphire - 1.25 Ct D1.10 Carat 18k W/g $100.0009/14/20112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+DISCONNECT
+/*C307*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C308*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C309*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C310*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C311*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C312*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,735);','LAWN EQUIPMENTSale-Lot Number: A1QSCI11118735$51ID09/15 07:05 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,736);','FIRE EXTINGUISHERS, ETCSale-Lot Number: A1QSCI11118736$172ID09/15 07:08 PM CT *')
+COMMIT
+DISCONNECT
+/*C313*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C314*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html','US Treasury - Auctions - Bid Results... 6, Watch: Backes & Strauss, White Gold, Oval Black Dial, White Gold Numerals andChapter Markers, Date Function, Embossed Backes & Strauss, London, Swiss Made ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html - 101k - 2011-08-02 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/inoh_anti_5107.htm','IRS Auction - Sales Ad for Independence, OHwww.treasury.gov/auctions/irs/inoh_anti_5107.htm - 22k - 2011-04-13 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/oaca_coin_5285.htm','IRS Auction - Sales Ad for Oakland, CA... Description of Property: 26 one-ounce South African Krugerrand gold coins and7 one-ounce Canadian Elizabeth II $50 gold coins. Property ...www.treasury.gov/auctions/irs/oaca_coin_5285.htm - 9k - 2011-07-06 - Cached[ More results from www.treasury.gov/auctions/irs ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=gold&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C315*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C316*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C317*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C318*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=521076&STI=1','***$1.00 Starts It - Lot In Fairfield Bay, Arkansas - NO RESERVE*** $1.0009/14/20118:00 AM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520736&STI=1','Gorgeous Diamond Earrings .40Carat 14k Yellow Gold $120.0009/14/201112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520745&STI=1','Ruby & Diamond Ring Ruby 2.43Ct Diamond .62Ct 14k W/G $250.0009/14/201112:58 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520901&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:03 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520902&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:13 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520756&STI=1','Rose Design Yellow Sapphire - 1.25 Ct D1.10 Carat 18k W/g $100.0009/14/20112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+DISCONNECT
+/*C319*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C320*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C321*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C322*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C323*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C324*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,017);','2004 CHEVY PU CHEVY 2500HD 4X4Sale-Lot Number: 31QSCI11205017$4,9249VA09/16 06:14 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,018);','2003 CHEVY PU 2500HD 4X4Sale-Lot Number: 31QSCI11205018$3,2048VA09/16 06:15 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,019);','2003 CHEVY PU CHEVY 2500HDSale-Lot Number: 31QSCI11205019$3,2046VA09/16 06:16 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,020);','2004 CHEVY 1500Sale-Lot Number: 31QSCI11205020$3,5117VA09/16 06:17 PM CT *')
+COMMIT
+DISCONNECT
+/*C325*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C326*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2010/june9_riverside.shtml','US Treasury - Auctions - Bid Results... 38, Rolex Datejust, $14,500, James Quan. 39, Platinum Coins, $5,200, Celia Ramirez.40, Platinum Coins, $5,500, Celia Ramirez. 41, Platinum Coins, $5,200, Konrad ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2010/june9_riverside.shtml - 19k - 2010-06-09 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul19_dayton.html','US Treasury - Auctions - Bid Results... 164, Ring: Platinum, Round Brilliant Cut Center Diamond, ATW 1.08 Ct, HJ Color,Si-2 Clarity, 2 Side Diamonds, ATW 0.54 Ct, EH Color, VS-2 to SI-1 Clarity, lew ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul19_dayton.html - 30k - 2011-09-09 - Cached[ More results from www.treasury.gov/auctions/treasury/gp ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/sbca_coin_5316.htm','IRS Auction - Sales Ad for Santa Barbara, CA... Description of Property: 1 - One-ounce 2005 American Eagle Gold $50 Coin 2 -One-ounce 1997 & 2002 American Eagle Platinum $100 Coins 14 - One-ounce 2000 ...www.treasury.gov/auctions/irs/sbca_coin_5316.htm - 9k - 2011-07-08 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=platinum&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C327*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C328*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C329*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C330*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520736&STI=1','Gorgeous Diamond Earrings .40Carat 14k Yellow Gold $120.0009/14/201112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520745&STI=1','Ruby & Diamond Ring Ruby 2.43Ct Diamond .62Ct 14k W/G $250.0009/14/201112:58 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520901&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:03 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520902&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:13 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520756&STI=1','Rose Design Yellow Sapphire - 1.25 Ct D1.10 Carat 18k W/g $100.0009/14/20112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+DISCONNECT
+/*C331*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C332*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C333*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C334*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C335*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C336*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,735);','LAWN EQUIPMENTSale-Lot Number: A1QSCI11118735$51ID09/15 07:05 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,736);','FIRE EXTINGUISHERS, ETCSale-Lot Number: A1QSCI11118736$172ID09/15 07:08 PM CT *')
+COMMIT
+DISCONNECT
+/*C337*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C338*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C339*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C340*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C341*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C342*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=521076&STI=1','***$1.00 Starts It - Lot In Fairfield Bay, Arkansas - NO RESERVE*** $1.0009/14/20118:00 AM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520736&STI=1','Gorgeous Diamond Earrings .40Carat 14k Yellow Gold $120.0009/14/201112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520745&STI=1','Ruby & Diamond Ring Ruby 2.43Ct Diamond .62Ct 14k W/G $250.0009/14/201112:58 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520901&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:03 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520902&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:13 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520756&STI=1','Rose Design Yellow Sapphire - 1.25 Ct D1.10 Carat 18k W/g $100.0009/14/20112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+DISCONNECT
+/*C343*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C344*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C345*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C346*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C347*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C348*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,735);','LAWN EQUIPMENTSale-Lot Number: A1QSCI11118735$51ID09/15 07:05 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,736);','FIRE EXTINGUISHERS, ETCSale-Lot Number: A1QSCI11118736$172ID09/15 07:08 PM CT *')
+COMMIT
+DISCONNECT
+/*C349*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C350*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html','US Treasury - Auctions - Bid Results... 6, Watch: Backes & Strauss, White Gold, Oval Black Dial, White Gold Numerals andChapter Markers, Date Function, Embossed Backes & Strauss, London, Swiss Made ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html - 101k - 2011-08-02 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/inoh_anti_5107.htm','IRS Auction - Sales Ad for Independence, OHwww.treasury.gov/auctions/irs/inoh_anti_5107.htm - 22k - 2011-04-13 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/oaca_coin_5285.htm','IRS Auction - Sales Ad for Oakland, CA... Description of Property: 26 one-ounce South African Krugerrand gold coins and7 one-ounce Canadian Elizabeth II $50 gold coins. Property ...www.treasury.gov/auctions/irs/oaca_coin_5285.htm - 9k - 2011-07-06 - Cached[ More results from www.treasury.gov/auctions/irs ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=gold&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C351*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C352*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C353*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C354*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=521076&STI=1','***$1.00 Starts It - Lot In Fairfield Bay, Arkansas - NO RESERVE*** $1.0009/14/20118:00 AM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520736&STI=1','Gorgeous Diamond Earrings .40Carat 14k Yellow Gold $120.0009/14/201112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520745&STI=1','Ruby & Diamond Ring Ruby 2.43Ct Diamond .62Ct 14k W/G $250.0009/14/201112:58 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520901&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:03 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520902&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:13 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520756&STI=1','Rose Design Yellow Sapphire - 1.25 Ct D1.10 Carat 18k W/g $100.0009/14/20112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+DISCONNECT
+/*C355*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C356*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C357*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C358*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C359*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C360*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,735);','LAWN EQUIPMENTSale-Lot Number: A1QSCI11118735$51ID09/15 07:05 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,736);','FIRE EXTINGUISHERS, ETCSale-Lot Number: A1QSCI11118736$172ID09/15 07:08 PM CT *')
+COMMIT
+DISCONNECT
+/*C361*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C362*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html','US Treasury - Auctions - Bid Results... 6, Watch: Backes & Strauss, White Gold, Oval Black Dial, White Gold Numerals andChapter Markers, Date Function, Embossed Backes & Strauss, London, Swiss Made ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html - 101k - 2011-08-02 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/inoh_anti_5107.htm','IRS Auction - Sales Ad for Independence, OHwww.treasury.gov/auctions/irs/inoh_anti_5107.htm - 22k - 2011-04-13 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/oaca_coin_5285.htm','IRS Auction - Sales Ad for Oakland, CA... Description of Property: 26 one-ounce South African Krugerrand gold coins and7 one-ounce Canadian Elizabeth II $50 gold coins. Property ...www.treasury.gov/auctions/irs/oaca_coin_5285.htm - 9k - 2011-07-06 - Cached[ More results from www.treasury.gov/auctions/irs ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=gold&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C363*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C364*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C365*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C366*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=521076&STI=1','***$1.00 Starts It - Lot In Fairfield Bay, Arkansas - NO RESERVE*** $1.0009/14/20118:00 AM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520736&STI=1','Gorgeous Diamond Earrings .40Carat 14k Yellow Gold $120.0009/14/201112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520745&STI=1','Ruby & Diamond Ring Ruby 2.43Ct Diamond .62Ct 14k W/G $250.0009/14/201112:58 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520901&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:03 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520902&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:13 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520756&STI=1','Rose Design Yellow Sapphire - 1.25 Ct D1.10 Carat 18k W/g $100.0009/14/20112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+DISCONNECT
+/*C367*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C368*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C369*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C370*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,017);','2004 CHEVY PU CHEVY 2500HD 4X4Sale-Lot Number: 31QSCI11205017$4,9249VA09/16 06:14 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,018);','2003 CHEVY PU 2500HD 4X4Sale-Lot Number: 31QSCI11205018$3,2048VA09/16 06:15 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,019);','2003 CHEVY PU CHEVY 2500HDSale-Lot Number: 31QSCI11205019$3,2046VA09/16 06:16 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(31QSCI11205,020);','2004 CHEVY 1500Sale-Lot Number: 31QSCI11205020$3,5117VA09/16 06:17 PM CT *')
+COMMIT
+DISCONNECT
+/*C371*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C372*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2010/june9_riverside.shtml','US Treasury - Auctions - Bid Results... 38, Rolex Datejust, $14,500, James Quan. 39, Platinum Coins, $5,200, Celia Ramirez.40, Platinum Coins, $5,500, Celia Ramirez. 41, Platinum Coins, $5,200, Konrad ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2010/june9_riverside.shtml - 19k - 2010-06-09 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul19_dayton.html','US Treasury - Auctions - Bid Results... 164, Ring: Platinum, Round Brilliant Cut Center Diamond, ATW 1.08 Ct, HJ Color,Si-2 Clarity, 2 Side Diamonds, ATW 0.54 Ct, EH Color, VS-2 to SI-1 Clarity, lew ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul19_dayton.html - 30k - 2011-09-09 - Cached[ More results from www.treasury.gov/auctions/treasury/gp ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/sbca_coin_5316.htm','IRS Auction - Sales Ad for Santa Barbara, CA... Description of Property: 1 - One-ounce 2005 American Eagle Gold $50 Coin 2 -One-ounce 1997 & 2002 American Eagle Platinum $100 Coins 14 - One-ounce 2000 ...www.treasury.gov/auctions/irs/sbca_coin_5316.htm - 9k - 2011-07-08 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=platinum&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C373*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C374*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C375*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C376*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520736&STI=1','Gorgeous Diamond Earrings .40Carat 14k Yellow Gold $120.0009/14/201112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520745&STI=1','Ruby & Diamond Ring Ruby 2.43Ct Diamond .62Ct 14k W/G $250.0009/14/201112:58 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520901&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:03 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520902&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:13 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520756&STI=1','Rose Design Yellow Sapphire - 1.25 Ct D1.10 Carat 18k W/g $100.0009/14/20112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+DISCONNECT
+/*C377*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C378*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C379*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C380*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,735);','LAWN EQUIPMENTSale-Lot Number: A1QSCI11118735$51ID09/15 07:05 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,736);','FIRE EXTINGUISHERS, ETCSale-Lot Number: A1QSCI11118736$172ID09/15 07:08 PM CT *')
+COMMIT
+DISCONNECT
+/*C381*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C382*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html','US Treasury - Auctions - Bid Results... 6, Watch: Backes & Strauss, White Gold, Oval Black Dial, White Gold Numerals andChapter Markers, Date Function, Embossed Backes & Strauss, London, Swiss Made ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html - 101k - 2011-08-02 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/inoh_anti_5107.htm','IRS Auction - Sales Ad for Independence, OHwww.treasury.gov/auctions/irs/inoh_anti_5107.htm - 22k - 2011-04-13 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/oaca_coin_5285.htm','IRS Auction - Sales Ad for Oakland, CA... Description of Property: 26 one-ounce South African Krugerrand gold coins and7 one-ounce Canadian Elizabeth II $50 gold coins. Property ...www.treasury.gov/auctions/irs/oaca_coin_5285.htm - 9k - 2011-07-06 - Cached[ More results from www.treasury.gov/auctions/irs ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=gold&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C383*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C384*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C385*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C386*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=521076&STI=1','***$1.00 Starts It - Lot In Fairfield Bay, Arkansas - NO RESERVE*** $1.0009/14/20118:00 AM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520736&STI=1','Gorgeous Diamond Earrings .40Carat 14k Yellow Gold $120.0009/14/201112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520745&STI=1','Ruby & Diamond Ring Ruby 2.43Ct Diamond .62Ct 14k W/G $250.0009/14/201112:58 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520901&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:03 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520902&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:13 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520756&STI=1','Rose Design Yellow Sapphire - 1.25 Ct D1.10 Carat 18k W/g $100.0009/14/20112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+DISCONNECT
+/*C387*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C388*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C389*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C390*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,735);','LAWN EQUIPMENTSale-Lot Number: A1QSCI11118735$51ID09/15 07:05 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,736);','FIRE EXTINGUISHERS, ETCSale-Lot Number: A1QSCI11118736$172ID09/15 07:08 PM CT *')
+COMMIT
+DISCONNECT
+/*C391*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C392*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html','US Treasury - Auctions - Bid Results... 6, Watch: Backes & Strauss, White Gold, Oval Black Dial, White Gold Numerals andChapter Markers, Date Function, Embossed Backes & Strauss, London, Swiss Made ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html - 101k - 2011-08-02 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/inoh_anti_5107.htm','IRS Auction - Sales Ad for Independence, OHwww.treasury.gov/auctions/irs/inoh_anti_5107.htm - 22k - 2011-04-13 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/oaca_coin_5285.htm','IRS Auction - Sales Ad for Oakland, CA... Description of Property: 26 one-ounce South African Krugerrand gold coins and7 one-ounce Canadian Elizabeth II $50 gold coins. Property ...www.treasury.gov/auctions/irs/oaca_coin_5285.htm - 9k - 2011-07-06 - Cached[ More results from www.treasury.gov/auctions/irs ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=gold&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C393*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C394*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C395*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C396*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520736&STI=1','Gorgeous Diamond Earrings .40Carat 14k Yellow Gold $120.0009/14/201112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520745&STI=1','Ruby & Diamond Ring Ruby 2.43Ct Diamond .62Ct 14k W/G $250.0009/14/201112:58 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520901&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:03 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520902&STI=1','Heart Diamond Pendant .75 Carat with 14k White Gold $0.0009/14/20111:13 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/auction/index.cfm?auctionid=520756&STI=1','Rose Design Yellow Sapphire - 1.25 Ct D1.10 Carat 18k W/g $100.0009/14/20112:25 PM EST')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://www.bid4assets.com/','http://www.bid4assets.com/Search/index.cfm?fuseaction=search','')
+COMMIT
+DISCONNECT
+/*C397*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C398*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C399*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C400*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,735);','LAWN EQUIPMENTSale-Lot Number: A1QSCI11118735$51ID09/15 07:05 PM CT *')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://gsaauctions.gov/','javascript:itemSel(A1QSCI11118,736);','FIRE EXTINGUISHERS, ETCSale-Lot Number: A1QSCI11118736$172ID09/15 07:08 PM CT *')
+COMMIT
+DISCONNECT
+/*C401*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C402*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','','For better auction results:')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html','US Treasury - Auctions - Bid Results... 6, Watch: Backes & Strauss, White Gold, Oval Black Dial, White Gold Numerals andChapter Markers, Date Function, Embossed Backes & Strauss, London, Swiss Made ...www.treasury.gov/auctions/treasury/gp/bidresults/fy2011/jul13_ftl.html - 101k - 2011-08-02 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/inoh_anti_5107.htm','IRS Auction - Sales Ad for Independence, OHwww.treasury.gov/auctions/irs/inoh_anti_5107.htm - 22k - 2011-04-13 - Cached')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://www.treasury.gov/auctions/irs/oaca_coin_5285.htm','IRS Auction - Sales Ad for Oakland, CA... Description of Property: 26 one-ounce South African Krugerrand gold coins and7 one-ounce Canadian Elizabeth II $50 gold coins. Property ...www.treasury.gov/auctions/irs/oaca_coin_5285.htm - 9k - 2011-07-06 - Cached[ More results from www.treasury.gov/auctions/irs ]')
+COMMIT
+INSERT INTO AUCTION_RECORDS VALUES('http://search.treas.gov/','http://search.treas.gov/search?q=gold&output=xml_no_dtd&sort=date%3AD%3AL%3Ad1&ie=UTF-8&client=auctions&oe=UTF-8&proxystylesheet=auctions&site=Auctions&ip=98.248.184.122&access=p&entqr=3&ud=1&filter=0','In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.If you like, you can repeat the search with the omitted results included.')
+COMMIT
+DISCONNECT
+/*C403*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C404*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C405*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C406*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS auction_records
+CREATE TABLE auction_records ( website VARCHAR(64), url VARCHAR(256), results_content VARCHAR(512) )
+DISCONNECT
+/*C407*/SET SCHEMA PUBLIC
+DISCONNECT
